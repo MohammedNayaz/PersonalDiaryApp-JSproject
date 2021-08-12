@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>MyPersonalDiary</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="custom.css">
+  <script src="https://kit.fontawesome.com/8fcc67836f.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+
+    <!-- <a class="navbar-brand" href="#"><img src="img\mry2.png" alt="Memories" width="5%"></a> -->
+    <a class="navbar-brand" href="#">MyDiary</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="features.html">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="container mt-4">
+    <h1 class="display-4 text-center">
+      <i class="fas fa-book text-primary">&nbsp;</i>
+      My<span class="text-primary"><b>Personal</b></span>Diary</h1>
+  </div> <br><hr><br>
+
+<form id="diaryForm" action="index.html" method="post">
+
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="img\mry2.png" alt="Memories" width="100%">
+
+    </div>
+
+    <div class="col-6 frmcon">
+  <div class="mb-3 ">
+  <label for="formGroupExampleInput" class="form-label">Title</label>
+  <input type="text" class="form-control formg" id="title" placeholder="Enter the Title" name="title">
+</div>
+<div class="mb-3 ">
+  <label for="formGroupExampleInput2" class="form-label">Date</label>
+  <input type="date" class="form-control formg" id="date"  name="date">
+</div>
+<div class="mb-3 ">
+  <label for="formGroupExampleInput2" class="form-label">Time</label>
+  <input type="time" class="form-control formg" id="time"  name="time">
+</div>
+<div class="mb-3 ">
+  <label for="formGroupExampleInput2" class="form-label">Memory</label>
+  <input type="text" class="form-control formg" id="desc" placeholder="Write the brief story" name="desc">
+</div>
+<div class=" mb-3">
+  <input type="submit" name="" value="Add" class="btn btn-lg btn-primary">
+  <!-- <button class="btn btn-lg btn-primary" type="button">Add</button> -->
+</div>
+    </div>
+
+    <div class="col">
+      <img src="img\mry3.png" alt="Memories" width="100%">
+</div>
+  </div>
+  <br>
+  <hr>
+  </div>
+</form>
+
+<div class="container">
+  <div class="row">
+    <div class="col">    </div>
+
+    <div class="col-12">
+      <table class="table  table-hover table-stripped mt-5">
+        <thead>
+          <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col">Memory</th>
+            <th scope="col">Delete</th>
+
+          </tr>
+        </thead>
+
+        <tbody id="mry-list">
+
+        </tbody>
+
+      </table>
+    </div>
+
+    <div class="col">   </div>
+  </div>
+<br><hr>
+
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+    <span class="text-muted"> Mohammed Nayaz &copy; 2021. All rights reserved.</span>
+  </div>
+
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

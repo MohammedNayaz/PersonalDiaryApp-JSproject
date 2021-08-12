@@ -1,0 +1,14 @@
+ .formg{
+  color: royalblue;
+  /* background: antiquewhite; */
+  font-weight: bolder;
+}
+
+.frmcon{
+background-color: rgb(203,231,252);
+  font-weight: bolder;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
