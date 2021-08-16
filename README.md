@@ -1,6 +1,10 @@
 # PersonalDiaryApp-JSproject
 Simple JS Project
 
+#Live Demo:
+
+https://personal-diary-app-by-mdnayaz.netlify.app/
+
 <h3>Main Page</h3>
 
 
